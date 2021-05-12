@@ -1,20 +1,15 @@
 ---
-# A Demo section created with the Blank widget.
-# Any elements can be added in the body: https://wowchemy.com/docs/writing-markdown-latex/
-# Add more sections by duplicating this file and customizing to your requirements.
-
-widget: hero  # See https://wowchemy.com/docs/page-builder/
-headless: true  # This file represents a page section.
-weight: 10  # Order that this section will appear.
-title: "Wowchemy Research Group"
-subtitle: ""
-hero_media: welcome.jpg
-design:
-  # Choose how many columns the section has. Valid values: 1 or 2.
-  columns: '1'
 advanced:
-  css_style:
-  css_class:
+  ? css_style
+  ? css_class
+widget: hero
+widget_id: recent-posts
+headless: true
+weight: 10
+title: 安全安心価値創造研究所
+subtitle: ""
+design:
+  columns: "1"
+hero_media: welcome.jpg
 ---
-
-The Wowchemy Research Group has been a center of excellence for Artificial Intelligence research, teaching, and practice since its founding in 2016.
+安全安心価値創造研究所は，「安全安心な社会の実現に繋がる価値創造」の研究の集約と情報公開を主な目的としています。
